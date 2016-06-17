@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-metal-resolve-source",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A babel preset for building Metal.js projects that automatically resolves imports into full paths",
   "license": "MIT",
   "repository": "babel-preset-metal-resolve-source",

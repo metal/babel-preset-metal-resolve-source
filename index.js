@@ -30,7 +30,7 @@ function getModulePath(name) {
     return resolve(name);
   } catch (e) {
     // If a module wasn't found with this name, just return the original path.
-    console.warn('Module with name "' + name + '" could not be found by node."', e);
+    console.warn('Module with name "' + name + '" could not be found by node."', e.message);
     return name;
   }
 }
